@@ -1,0 +1,60 @@
+[gd_scene load_steps=11 format=3 uid="uid://cil1x0hga5q64"]
+
+[ext_resource type="Texture2D" uid="uid://csk7lyfpuswgw" path="res://Icons/Sprites/NPC/Angel/Idle/angel_idle_anim_f0.png" id="1_el0nx"]
+[ext_resource type="Texture2D" uid="uid://c47m41bot2ec5" path="res://Icons/Sprites/NPC/Angel/Idle/angel_idle_anim_f1.png" id="2_jowvc"]
+[ext_resource type="Texture2D" uid="uid://c7ai7syxvj40v" path="res://Icons/Sprites/NPC/Angel/Idle/angel_idle_anim_f2.png" id="3_6m8r6"]
+[ext_resource type="Texture2D" uid="uid://ccth7gfhs7s4i" path="res://Icons/Sprites/NPC/Angel/Idle/angel_idle_anim_f3.png" id="4_ag4x7"]
+[ext_resource type="Texture2D" uid="uid://cgrj817lnbdw1" path="res://Icons/Sprites/NPC/Angel/Run/angel_run_anim_f0.png" id="5_hd3ex"]
+[ext_resource type="Texture2D" uid="uid://c2elp2xy7bf0a" path="res://Icons/Sprites/NPC/Angel/Run/angel_run_anim_f1.png" id="6_jnqoa"]
+[ext_resource type="Texture2D" uid="uid://ifgrewul3d8u" path="res://Icons/Sprites/NPC/Angel/Run/angel_run_anim_f2.png" id="7_ejjob"]
+[ext_resource type="Texture2D" uid="uid://1laj31jr0ruq" path="res://Icons/Sprites/NPC/Angel/Run/angel_run_anim_f3.png" id="8_amuwp"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_lljji"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_el0nx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_jowvc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_6m8r6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ag4x7")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_hd3ex")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_jnqoa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_ejjob")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_amuwp")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kw1w5"]
+size = Vector2(16, 16)
+
+[node name="AngelIdle" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_lljji")
+animation = &"Idle"
+frame_progress = 0.211475
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_kw1w5")
