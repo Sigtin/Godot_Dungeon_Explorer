@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://jdpimbfcc85r"
-path="res://.godot/imported/knight_f_idle_anim_f1.png-af04d42d7773912d13dcc5dd3236db2d.ctex"
+path="res://.godot/imported/knight_f_idle_anim_f1.png-4a1be312632be94a41c1cfa335ce836e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UnorganizedFrames/knight_f_idle_anim_f1.png"
-dest_files=["res://.godot/imported/knight_f_idle_anim_f1.png-af04d42d7773912d13dcc5dd3236db2d.ctex"]
+source_file="res://Icons/Sprites/Player/Knight/Female/Idle/knight_f_idle_anim_f1.png"
+dest_files=["res://.godot/imported/knight_f_idle_anim_f1.png-4a1be312632be94a41c1cfa335ce836e.ctex"]
 
 [params]
 

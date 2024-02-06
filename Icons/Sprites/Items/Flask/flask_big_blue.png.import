@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c5yhs6ba6e12m"
-path="res://.godot/imported/flask_big_blue.png-adf1ad11f3175a10661583e2ea3cd733.ctex"
+path="res://.godot/imported/flask_big_blue.png-c49ec1a01ad9324935d81ba793aa0e85.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UnorganizedFrames/flask_big_blue.png"
-dest_files=["res://.godot/imported/flask_big_blue.png-adf1ad11f3175a10661583e2ea3cd733.ctex"]
+source_file="res://Icons/Sprites/Items/Flask/flask_big_blue.png"
+dest_files=["res://.godot/imported/flask_big_blue.png-c49ec1a01ad9324935d81ba793aa0e85.ctex"]
 
 [params]
 

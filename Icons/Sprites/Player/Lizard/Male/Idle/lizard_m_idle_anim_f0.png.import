@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bag1flcdvgi6b"
-path="res://.godot/imported/lizard_m_idle_anim_f0.png-28c9e707fccf5945486f245e788c73e4.ctex"
+path="res://.godot/imported/lizard_m_idle_anim_f0.png-9c1805a91d944bc89e915a0b91d2aeae.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UnorganizedFrames/lizard_m_idle_anim_f0.png"
-dest_files=["res://.godot/imported/lizard_m_idle_anim_f0.png-28c9e707fccf5945486f245e788c73e4.ctex"]
+source_file="res://Icons/Sprites/Player/Lizard/Male/Idle/lizard_m_idle_anim_f0.png"
+dest_files=["res://.godot/imported/lizard_m_idle_anim_f0.png-9c1805a91d944bc89e915a0b91d2aeae.ctex"]
 
 [params]
 

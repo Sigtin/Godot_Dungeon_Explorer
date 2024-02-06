@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ciqlmvaupkkld"
-path="res://.godot/imported/floor_spikes_anim_f3.png-0a0b2945f1d7481f2c697d33e4ed6865.ctex"
+path="res://.godot/imported/floor_spikes_anim_f3.png-5ce3c1eb23cca097a3913535ee04f62e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UnorganizedFrames/floor_spikes_anim_f3.png"
-dest_files=["res://.godot/imported/floor_spikes_anim_f3.png-0a0b2945f1d7481f2c697d33e4ed6865.ctex"]
+source_file="res://Icons/Tiles/AnimatedFrames/Spikes/floor_spikes_anim_f3.png"
+dest_files=["res://.godot/imported/floor_spikes_anim_f3.png-5ce3c1eb23cca097a3913535ee04f62e.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dfoinvp1f7w7j"
-path="res://.godot/imported/lizard_m_run_anim_f3.png-148df6c8a00ed616ffb51810874af9ab.ctex"
+path="res://.godot/imported/lizard_m_run_anim_f3.png-531de5eaa1fca9131b9dc6efb5fe540c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UnorganizedFrames/lizard_m_run_anim_f3.png"
-dest_files=["res://.godot/imported/lizard_m_run_anim_f3.png-148df6c8a00ed616ffb51810874af9ab.ctex"]
+source_file="res://Icons/Sprites/Player/Lizard/Male/Run/lizard_m_run_anim_f3.png"
+dest_files=["res://.godot/imported/lizard_m_run_anim_f3.png-531de5eaa1fca9131b9dc6efb5fe540c.ctex"]
 
 [params]
 

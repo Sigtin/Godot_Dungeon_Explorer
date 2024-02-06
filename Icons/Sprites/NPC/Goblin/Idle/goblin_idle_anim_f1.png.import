@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://crlo346sjrdd1"
-path="res://.godot/imported/goblin_idle_anim_f1.png-a65cc57281559af1c63b81fce58c72b1.ctex"
+path="res://.godot/imported/goblin_idle_anim_f1.png-37d4df06a6f407a6b3a9837e2999e1db.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UnorganizedFrames/goblin_idle_anim_f1.png"
-dest_files=["res://.godot/imported/goblin_idle_anim_f1.png-a65cc57281559af1c63b81fce58c72b1.ctex"]
+source_file="res://Icons/Sprites/NPC/Goblin/Idle/goblin_idle_anim_f1.png"
+dest_files=["res://.godot/imported/goblin_idle_anim_f1.png-37d4df06a6f407a6b3a9837e2999e1db.ctex"]
 
 [params]
 

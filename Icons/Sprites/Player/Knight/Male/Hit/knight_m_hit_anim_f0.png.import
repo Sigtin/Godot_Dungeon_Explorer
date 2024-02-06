@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://w1i086htbftb"
-path="res://.godot/imported/knight_m_hit_anim_f0.png-724fc880bc6aef1a645bb2c7cef30bc8.ctex"
+path="res://.godot/imported/knight_m_hit_anim_f0.png-8ac66b889de4187c0af867272691a592.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UnorganizedFrames/knight_m_hit_anim_f0.png"
-dest_files=["res://.godot/imported/knight_m_hit_anim_f0.png-724fc880bc6aef1a645bb2c7cef30bc8.ctex"]
+source_file="res://Icons/Sprites/Player/Knight/Male/Hit/knight_m_hit_anim_f0.png"
+dest_files=["res://.godot/imported/knight_m_hit_anim_f0.png-8ac66b889de4187c0af867272691a592.ctex"]
 
 [params]
 

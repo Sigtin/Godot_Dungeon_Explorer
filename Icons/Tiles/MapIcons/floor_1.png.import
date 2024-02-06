@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cb5ekabsmqurf"
-path="res://.godot/imported/floor_1.png-c07a303613682f04a148aeba2371b5df.ctex"
+path="res://.godot/imported/floor_1.png-4a4f00dfb79b69b6b47e8f43afc10d8c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UnorganizedFrames/floor_1.png"
-dest_files=["res://.godot/imported/floor_1.png-c07a303613682f04a148aeba2371b5df.ctex"]
+source_file="res://Icons/Tiles/MapIcons/floor_1.png"
+dest_files=["res://.godot/imported/floor_1.png-4a4f00dfb79b69b6b47e8f43afc10d8c.ctex"]
 
 [params]
 

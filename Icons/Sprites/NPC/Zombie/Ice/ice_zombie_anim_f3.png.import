@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://xuof1etqutwo"
-path="res://.godot/imported/ice_zombie_anim_f3.png-8c9c5a2815dd8fd8ccc426d3bc844dd7.ctex"
+path="res://.godot/imported/ice_zombie_anim_f3.png-326bc8473a5639128862395d592ae124.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UnorganizedFrames/ice_zombie_anim_f3.png"
-dest_files=["res://.godot/imported/ice_zombie_anim_f3.png-8c9c5a2815dd8fd8ccc426d3bc844dd7.ctex"]
+source_file="res://Icons/Sprites/NPC/Zombie/Ice/ice_zombie_anim_f3.png"
+dest_files=["res://.godot/imported/ice_zombie_anim_f3.png-326bc8473a5639128862395d592ae124.ctex"]
 
 [params]
 
