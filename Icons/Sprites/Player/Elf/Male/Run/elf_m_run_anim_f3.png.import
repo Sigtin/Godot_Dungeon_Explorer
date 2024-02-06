@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cglc8x0yqnhca"
-path="res://.godot/imported/elf_m_run_anim_f3.png-cb81bbdbd973acdfdb7c9fabd4a0b0b8.ctex"
+path="res://.godot/imported/elf_m_run_anim_f3.png-b01c05b09cfeee31f7176efd0a41cc6b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UnorganizedFrames/elf_m_run_anim_f3.png"
-dest_files=["res://.godot/imported/elf_m_run_anim_f3.png-cb81bbdbd973acdfdb7c9fabd4a0b0b8.ctex"]
+source_file="res://Icons/Sprites/Player/Elf/Male/Run/elf_m_run_anim_f3.png"
+dest_files=["res://.godot/imported/elf_m_run_anim_f3.png-b01c05b09cfeee31f7176efd0a41cc6b.ctex"]
 
 [params]
 

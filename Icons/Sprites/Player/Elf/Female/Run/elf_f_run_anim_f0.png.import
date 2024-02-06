@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://blurrrsdi6lsv"
-path="res://.godot/imported/elf_f_run_anim_f0.png-94dcf533b2cc17673fe00723f2a14740.ctex"
+path="res://.godot/imported/elf_f_run_anim_f0.png-c906c90fa85122543a2edbceea55fe2d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UnorganizedFrames/elf_f_run_anim_f0.png"
-dest_files=["res://.godot/imported/elf_f_run_anim_f0.png-94dcf533b2cc17673fe00723f2a14740.ctex"]
+source_file="res://Icons/Sprites/Player/Elf/Female/Run/elf_f_run_anim_f0.png"
+dest_files=["res://.godot/imported/elf_f_run_anim_f0.png-c906c90fa85122543a2edbceea55fe2d.ctex"]
 
 [params]
 

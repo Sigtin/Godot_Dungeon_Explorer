@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://wanspeprffa4"
-path="res://.godot/imported/elf_m_idle_anim_f2.png-6ccaaa27a23e9ba4076a8c233e2b0007.ctex"
+path="res://.godot/imported/elf_m_idle_anim_f2.png-0108af624a6c76fd54f809bcb09b1738.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UnorganizedFrames/elf_m_idle_anim_f2.png"
-dest_files=["res://.godot/imported/elf_m_idle_anim_f2.png-6ccaaa27a23e9ba4076a8c233e2b0007.ctex"]
+source_file="res://Icons/Sprites/Player/Elf/Male/Idle/elf_m_idle_anim_f2.png"
+dest_files=["res://.godot/imported/elf_m_idle_anim_f2.png-0108af624a6c76fd54f809bcb09b1738.ctex"]
 
 [params]
 

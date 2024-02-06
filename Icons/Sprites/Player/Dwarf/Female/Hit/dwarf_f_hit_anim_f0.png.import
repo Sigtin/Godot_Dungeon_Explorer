@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bfwijo2beqm2q"
-path="res://.godot/imported/dwarf_f_hit_anim_f0.png-b965a85dfcac6cecfe87725ae6402ea6.ctex"
+path="res://.godot/imported/dwarf_f_hit_anim_f0.png-5e31abe97997e85e783d3372f6bef887.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UnorganizedFrames/dwarf_f_hit_anim_f0.png"
-dest_files=["res://.godot/imported/dwarf_f_hit_anim_f0.png-b965a85dfcac6cecfe87725ae6402ea6.ctex"]
+source_file="res://Icons/Sprites/Player/Dwarf/Female/Hit/dwarf_f_hit_anim_f0.png"
+dest_files=["res://.godot/imported/dwarf_f_hit_anim_f0.png-5e31abe97997e85e783d3372f6bef887.ctex"]
 
 [params]
 

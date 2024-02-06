@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://canfh6m68qg7m"
-path="res://.godot/imported/column_wall.png-5cfc146da8a076cd5a6190d8c7b8ce90.ctex"
+path="res://.godot/imported/column_wall.png-95e539e89b9e490678ad1e5c076da76f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UnorganizedFrames/column_wall.png"
-dest_files=["res://.godot/imported/column_wall.png-5cfc146da8a076cd5a6190d8c7b8ce90.ctex"]
+source_file="res://Icons/Tiles/MapIcons/column_wall.png"
+dest_files=["res://.godot/imported/column_wall.png-95e539e89b9e490678ad1e5c076da76f.ctex"]
 
 [params]
 

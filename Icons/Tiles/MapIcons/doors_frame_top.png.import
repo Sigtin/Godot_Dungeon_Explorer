@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dprtp3mq6a3qd"
-path="res://.godot/imported/doors_frame_top.png-b101c974e31265e3c1afc81b60fc58ee.ctex"
+path="res://.godot/imported/doors_frame_top.png-d3346dcd679f50b3b4de697710f72a08.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UnorganizedFrames/doors_frame_top.png"
-dest_files=["res://.godot/imported/doors_frame_top.png-b101c974e31265e3c1afc81b60fc58ee.ctex"]
+source_file="res://Icons/Tiles/MapIcons/doors_frame_top.png"
+dest_files=["res://.godot/imported/doors_frame_top.png-d3346dcd679f50b3b4de697710f72a08.ctex"]
 
 [params]
 

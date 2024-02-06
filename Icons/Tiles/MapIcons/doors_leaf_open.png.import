@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ctf1tvr67j4ti"
-path="res://.godot/imported/doors_leaf_open.png-a06d4ffde9f140a9fcda5114ed810c18.ctex"
+path="res://.godot/imported/doors_leaf_open.png-9bcc59bbd52d5705a867e293da5b20ce.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UnorganizedFrames/doors_leaf_open.png"
-dest_files=["res://.godot/imported/doors_leaf_open.png-a06d4ffde9f140a9fcda5114ed810c18.ctex"]
+source_file="res://Icons/Tiles/MapIcons/doors_leaf_open.png"
+dest_files=["res://.godot/imported/doors_leaf_open.png-9bcc59bbd52d5705a867e293da5b20ce.ctex"]
 
 [params]
 

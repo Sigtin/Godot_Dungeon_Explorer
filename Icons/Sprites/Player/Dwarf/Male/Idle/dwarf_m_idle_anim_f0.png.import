@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://1jqd15xmyg7q"
-path="res://.godot/imported/dwarf_m_idle_anim_f0.png-a8d30b8213c6e4357ef987b8566b083c.ctex"
+path="res://.godot/imported/dwarf_m_idle_anim_f0.png-3a58e5135bacc0d516fcab6e0fc8e82f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UnorganizedFrames/dwarf_m_idle_anim_f0.png"
-dest_files=["res://.godot/imported/dwarf_m_idle_anim_f0.png-a8d30b8213c6e4357ef987b8566b083c.ctex"]
+source_file="res://Icons/Sprites/Player/Dwarf/Male/Idle/dwarf_m_idle_anim_f0.png"
+dest_files=["res://.godot/imported/dwarf_m_idle_anim_f0.png-3a58e5135bacc0d516fcab6e0fc8e82f.ctex"]
 
 [params]
 

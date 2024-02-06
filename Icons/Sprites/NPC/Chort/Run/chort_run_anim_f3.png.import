@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cn1rq7wyijeke"
-path="res://.godot/imported/chort_run_anim_f3.png-0d34a17254a43b310345d1d497ef0ace.ctex"
+path="res://.godot/imported/chort_run_anim_f3.png-643531c91184d47e0170efe26a6242ff.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UnorganizedFrames/chort_run_anim_f3.png"
-dest_files=["res://.godot/imported/chort_run_anim_f3.png-0d34a17254a43b310345d1d497ef0ace.ctex"]
+source_file="res://Icons/Sprites/NPC/Chort/Run/chort_run_anim_f3.png"
+dest_files=["res://.godot/imported/chort_run_anim_f3.png-643531c91184d47e0170efe26a6242ff.ctex"]
 
 [params]
 

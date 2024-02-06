@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cr3yi7bas1txf"
-path="res://.godot/imported/chest_mimic_open_anim_f1.png-108ced1dd442be2df81ba539fbe3fd1d.ctex"
+path="res://.godot/imported/chest_mimic_open_anim_f1.png-0daee64dd6394dd5bf0a97f55b4bea43.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UnorganizedFrames/chest_mimic_open_anim_f1.png"
-dest_files=["res://.godot/imported/chest_mimic_open_anim_f1.png-108ced1dd442be2df81ba539fbe3fd1d.ctex"]
+source_file="res://Icons/Sprites/Items/Chest/Mimic/chest_mimic_open_anim_f1.png"
+dest_files=["res://.godot/imported/chest_mimic_open_anim_f1.png-0daee64dd6394dd5bf0a97f55b4bea43.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://csicttlvpj868"
-path="res://.godot/imported/chest_empty_open_anim_f0.png-d87f2bb7152bf458dbc48787a536cbbb.ctex"
+path="res://.godot/imported/chest_empty_open_anim_f0.png-ad8ceb87a432308db23fbb780772418f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UnorganizedFrames/chest_empty_open_anim_f0.png"
-dest_files=["res://.godot/imported/chest_empty_open_anim_f0.png-d87f2bb7152bf458dbc48787a536cbbb.ctex"]
+source_file="res://Icons/Sprites/Items/Chest/Empty/chest_empty_open_anim_f0.png"
+dest_files=["res://.godot/imported/chest_empty_open_anim_f0.png-ad8ceb87a432308db23fbb780772418f.ctex"]
 
 [params]
 

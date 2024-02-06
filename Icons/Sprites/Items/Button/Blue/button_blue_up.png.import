@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://7fc6dagx2jeb"
-path="res://.godot/imported/button_blue_up.png-49b4d2060a8bd011cb0ccc30d160f4cb.ctex"
+path="res://.godot/imported/button_blue_up.png-941e2f6612cddbba2baae08636082290.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UnorganizedFrames/button_blue_up.png"
-dest_files=["res://.godot/imported/button_blue_up.png-49b4d2060a8bd011cb0ccc30d160f4cb.ctex"]
+source_file="res://Icons/Sprites/Items/Button/Blue/button_blue_up.png"
+dest_files=["res://.godot/imported/button_blue_up.png-941e2f6612cddbba2baae08636082290.ctex"]
 
 [params]
 

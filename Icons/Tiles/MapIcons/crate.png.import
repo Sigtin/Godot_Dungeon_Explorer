@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://h1vcyaamigph"
-path="res://.godot/imported/crate.png-319b4e64a76a560f9567cc09f66c239b.ctex"
+path="res://.godot/imported/crate.png-b3cc2fdca374d7734ff81e54d7610919.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UnorganizedFrames/crate.png"
-dest_files=["res://.godot/imported/crate.png-319b4e64a76a560f9567cc09f66c239b.ctex"]
+source_file="res://Icons/Tiles/MapIcons/crate.png"
+dest_files=["res://.godot/imported/crate.png-b3cc2fdca374d7734ff81e54d7610919.ctex"]
 
 [params]
 

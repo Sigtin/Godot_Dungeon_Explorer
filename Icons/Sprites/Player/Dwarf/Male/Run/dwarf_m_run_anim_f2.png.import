@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b152r03idfwxn"
-path="res://.godot/imported/dwarf_m_run_anim_f2.png-4843453f751db1928c8f7a89d72a58af.ctex"
+path="res://.godot/imported/dwarf_m_run_anim_f2.png-b735874dfcf83df1bcd89e50244b1db6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UnorganizedFrames/dwarf_m_run_anim_f2.png"
-dest_files=["res://.godot/imported/dwarf_m_run_anim_f2.png-4843453f751db1928c8f7a89d72a58af.ctex"]
+source_file="res://Icons/Sprites/Player/Dwarf/Male/Run/dwarf_m_run_anim_f2.png"
+dest_files=["res://.godot/imported/dwarf_m_run_anim_f2.png-b735874dfcf83df1bcd89e50244b1db6.ctex"]
 
 [params]
 

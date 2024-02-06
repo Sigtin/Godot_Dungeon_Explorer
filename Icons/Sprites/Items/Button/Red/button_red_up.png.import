@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://0va56b632623"
-path="res://.godot/imported/button_red_up.png-e3ede2fb1f7afa87f35c81a9f306e91d.ctex"
+path="res://.godot/imported/button_red_up.png-33df389ca59a19b5c06d415e58f4dc06.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UnorganizedFrames/button_red_up.png"
-dest_files=["res://.godot/imported/button_red_up.png-e3ede2fb1f7afa87f35c81a9f306e91d.ctex"]
+source_file="res://Icons/Sprites/Items/Button/Red/button_red_up.png"
+dest_files=["res://.godot/imported/button_red_up.png-33df389ca59a19b5c06d415e58f4dc06.ctex"]
 
 [params]
 
