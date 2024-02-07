@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bqmxhnr0iived"
-path="res://.godot/imported/wall_fountain_basin_blue_anim_f1.png-a7effea1bfc5029f424bd1932d559aa2.ctex"
+uid="uid://itgf0goxa8i7"
+path="res://.godot/imported/wall_fountain_red_anim_f0.png-6ca82703eb90a9c01ab96b3fbd633752.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Icons/Tiles/MapIcons/Walls/wall_fountain_basin_blue_anim_f1.png"
-dest_files=["res://.godot/imported/wall_fountain_basin_blue_anim_f1.png-a7effea1bfc5029f424bd1932d559aa2.ctex"]
+source_file="res://Icons/Tiles/AnimatedFrames/Lava/wall_fountain_red_anim_f0.png"
+dest_files=["res://.godot/imported/wall_fountain_red_anim_f0.png-6ca82703eb90a9c01ab96b3fbd633752.ctex"]
 
 [params]
 
