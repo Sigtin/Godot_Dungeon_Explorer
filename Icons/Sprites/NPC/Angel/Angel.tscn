@@ -1,0 +1,61 @@
+[gd_scene load_steps=11 format=3 uid="uid://cil1x0hga5q64"]
+
+[ext_resource type="Texture2D" uid="uid://csk7lyfpuswgw" path="res://Icons/Sprites/NPC/Angel/Idle/angel_idle_anim_f0.png" id="1_p0lsd"]
+[ext_resource type="Texture2D" uid="uid://c47m41bot2ec5" path="res://Icons/Sprites/NPC/Angel/Idle/angel_idle_anim_f1.png" id="2_p0o6m"]
+[ext_resource type="Texture2D" uid="uid://c7ai7syxvj40v" path="res://Icons/Sprites/NPC/Angel/Idle/angel_idle_anim_f2.png" id="3_31ubo"]
+[ext_resource type="Texture2D" uid="uid://ccth7gfhs7s4i" path="res://Icons/Sprites/NPC/Angel/Idle/angel_idle_anim_f3.png" id="4_1ng0q"]
+[ext_resource type="Texture2D" uid="uid://cgrj817lnbdw1" path="res://Icons/Sprites/NPC/Angel/Run/angel_run_anim_f0.png" id="5_u8dff"]
+[ext_resource type="Texture2D" uid="uid://c2elp2xy7bf0a" path="res://Icons/Sprites/NPC/Angel/Run/angel_run_anim_f1.png" id="6_amsl7"]
+[ext_resource type="Texture2D" uid="uid://ifgrewul3d8u" path="res://Icons/Sprites/NPC/Angel/Run/angel_run_anim_f2.png" id="7_o8vs4"]
+[ext_resource type="Texture2D" uid="uid://1laj31jr0ruq" path="res://Icons/Sprites/NPC/Angel/Run/angel_run_anim_f3.png" id="8_ys0cc"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_lljji"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_p0lsd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_p0o6m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_31ubo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_1ng0q")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_u8dff")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_amsl7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_o8vs4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_ys0cc")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_1nkj8"]
+radius = 2.0
+
+[node name="AngelIdle" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_lljji")
+animation = &"Idle"
+frame_progress = 0.562087
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 4)
+shape = SubResource("CircleShape2D_1nkj8")

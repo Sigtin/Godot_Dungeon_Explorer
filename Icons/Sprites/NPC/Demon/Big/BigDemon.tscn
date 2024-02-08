@@ -1,0 +1,61 @@
+[gd_scene load_steps=11 format=3 uid="uid://duvn74s2368cy"]
+
+[ext_resource type="Texture2D" uid="uid://ch03fm8a5iuca" path="res://Icons/Sprites/NPC/Demon/Big/Idle/big_demon_idle_anim_f0.png" id="1_i08pt"]
+[ext_resource type="Texture2D" uid="uid://bps2ldd26pv0y" path="res://Icons/Sprites/NPC/Demon/Big/Idle/big_demon_idle_anim_f1.png" id="2_4jbit"]
+[ext_resource type="Texture2D" uid="uid://bo0sui2yi4ul0" path="res://Icons/Sprites/NPC/Demon/Big/Idle/big_demon_idle_anim_f2.png" id="3_dn2d8"]
+[ext_resource type="Texture2D" uid="uid://dffs6uapsc8m0" path="res://Icons/Sprites/NPC/Demon/Big/Idle/big_demon_idle_anim_f3.png" id="4_3hdpg"]
+[ext_resource type="Texture2D" uid="uid://gakl7kyfsx35" path="res://Icons/Sprites/NPC/Demon/Big/Run/big_demon_run_anim_f0.png" id="5_wso4y"]
+[ext_resource type="Texture2D" uid="uid://bqikbf7jcwhqc" path="res://Icons/Sprites/NPC/Demon/Big/Run/big_demon_run_anim_f1.png" id="6_4r3v6"]
+[ext_resource type="Texture2D" uid="uid://cyr8qk0mvfyfb" path="res://Icons/Sprites/NPC/Demon/Big/Run/big_demon_run_anim_f2.png" id="7_knvop"]
+[ext_resource type="Texture2D" uid="uid://cp5a4begjt4ub" path="res://Icons/Sprites/NPC/Demon/Big/Run/big_demon_run_anim_f3.png" id="8_n6qq4"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_rcyvy"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_i08pt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_4jbit")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_dn2d8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_3hdpg")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_wso4y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_4r3v6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_knvop")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_n6qq4")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_gjt0h"]
+radius = 5.0
+
+[node name="BigDemonAnimated" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_rcyvy")
+animation = &"Run"
+frame_progress = 0.728247
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 7)
+shape = SubResource("CircleShape2D_gjt0h")

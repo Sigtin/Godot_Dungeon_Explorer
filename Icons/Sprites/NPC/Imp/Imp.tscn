@@ -1,0 +1,61 @@
+[gd_scene load_steps=11 format=3 uid="uid://dpuisresp8bf8"]
+
+[ext_resource type="Texture2D" uid="uid://d1anold1xp0e3" path="res://Icons/Sprites/NPC/Imp/Idle/imp_idle_anim_f0.png" id="1_e2lo7"]
+[ext_resource type="Texture2D" uid="uid://bvbhtrnmaa4yx" path="res://Icons/Sprites/NPC/Imp/Idle/imp_idle_anim_f1.png" id="2_jj34x"]
+[ext_resource type="Texture2D" uid="uid://cjwgmcpsyxahy" path="res://Icons/Sprites/NPC/Imp/Idle/imp_idle_anim_f2.png" id="3_m2ixa"]
+[ext_resource type="Texture2D" uid="uid://cxdlrtk07los6" path="res://Icons/Sprites/NPC/Imp/Idle/imp_idle_anim_f3.png" id="4_ta7py"]
+[ext_resource type="Texture2D" uid="uid://djnk3h0ud5u8i" path="res://Icons/Sprites/NPC/Imp/Run/imp_run_anim_f0.png" id="5_gc4wl"]
+[ext_resource type="Texture2D" uid="uid://bmptmairtaa1x" path="res://Icons/Sprites/NPC/Imp/Run/imp_run_anim_f1.png" id="6_lsyti"]
+[ext_resource type="Texture2D" uid="uid://ca6nd7jjs4kcx" path="res://Icons/Sprites/NPC/Imp/Run/imp_run_anim_f2.png" id="7_w4jnh"]
+[ext_resource type="Texture2D" uid="uid://d3a76ddtumbxs" path="res://Icons/Sprites/NPC/Imp/Run/imp_run_anim_f3.png" id="8_d3fds"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_uus7j"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_e2lo7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_jj34x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_m2ixa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ta7py")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_gc4wl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_lsyti")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_w4jnh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_d3fds")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_spa83"]
+radius = 3.0
+
+[node name="Imp" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_uus7j")
+animation = &"Idle"
+frame_progress = 0.39439
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 4)
+shape = SubResource("CircleShape2D_spa83")

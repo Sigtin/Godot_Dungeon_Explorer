@@ -1,0 +1,61 @@
+[gd_scene load_steps=11 format=3 uid="uid://6yws7rb4efrj"]
+
+[ext_resource type="Texture2D" uid="uid://dn3562eqem48e" path="res://Icons/Sprites/NPC/Goblin/Idle/goblin_idle_anim_f0.png" id="1_ybem5"]
+[ext_resource type="Texture2D" uid="uid://crlo346sjrdd1" path="res://Icons/Sprites/NPC/Goblin/Idle/goblin_idle_anim_f1.png" id="2_6k4hm"]
+[ext_resource type="Texture2D" uid="uid://die6qr2j7besn" path="res://Icons/Sprites/NPC/Goblin/Idle/goblin_idle_anim_f2.png" id="3_xlht3"]
+[ext_resource type="Texture2D" uid="uid://qsof2l2gxn6n" path="res://Icons/Sprites/NPC/Goblin/Idle/goblin_idle_anim_f3.png" id="4_l5b16"]
+[ext_resource type="Texture2D" uid="uid://cklutnq37fed7" path="res://Icons/Sprites/NPC/Goblin/Run/goblin_run_anim_f0.png" id="5_v0uj4"]
+[ext_resource type="Texture2D" uid="uid://dood1m4d0yrn6" path="res://Icons/Sprites/NPC/Goblin/Run/goblin_run_anim_f1.png" id="6_maha5"]
+[ext_resource type="Texture2D" uid="uid://b3glqgmodlo5d" path="res://Icons/Sprites/NPC/Goblin/Run/goblin_run_anim_f2.png" id="7_i72pe"]
+[ext_resource type="Texture2D" uid="uid://cxwarkf1gvd7u" path="res://Icons/Sprites/NPC/Goblin/Run/goblin_run_anim_f3.png" id="8_m2g30"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_o76fs"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ybem5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_6k4hm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_xlht3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_l5b16")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_v0uj4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_maha5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_i72pe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_m2g30")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_j17xf"]
+radius = 3.0
+
+[node name="Goblin" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_o76fs")
+animation = &"Run"
+frame_progress = 0.54083
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 2)
+shape = SubResource("CircleShape2D_j17xf")

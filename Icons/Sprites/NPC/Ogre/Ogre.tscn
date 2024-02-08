@@ -1,0 +1,61 @@
+[gd_scene load_steps=11 format=3 uid="uid://w6vvl622prs5"]
+
+[ext_resource type="Texture2D" uid="uid://mvikgvybfda" path="res://Icons/Sprites/NPC/Ogre/Idle/ogre_idle_anim_f0.png" id="1_knras"]
+[ext_resource type="Texture2D" uid="uid://b27vqdrhdx0u3" path="res://Icons/Sprites/NPC/Ogre/Idle/ogre_idle_anim_f1.png" id="2_3p1bn"]
+[ext_resource type="Texture2D" uid="uid://oyduabhahujs" path="res://Icons/Sprites/NPC/Ogre/Idle/ogre_idle_anim_f2.png" id="3_pmsbr"]
+[ext_resource type="Texture2D" uid="uid://du41n0m5d0043" path="res://Icons/Sprites/NPC/Ogre/Idle/ogre_idle_anim_f3.png" id="4_1i5uy"]
+[ext_resource type="Texture2D" uid="uid://c50dcqgy5qs6o" path="res://Icons/Sprites/NPC/Ogre/Run/ogre_run_anim_f0.png" id="5_j5o7h"]
+[ext_resource type="Texture2D" uid="uid://c31m30bsq64rc" path="res://Icons/Sprites/NPC/Ogre/Run/ogre_run_anim_f1.png" id="6_rkf66"]
+[ext_resource type="Texture2D" uid="uid://gpvb11kxpyv0" path="res://Icons/Sprites/NPC/Ogre/Run/ogre_run_anim_f2.png" id="7_vusqs"]
+[ext_resource type="Texture2D" uid="uid://c4vg6gsqumnm5" path="res://Icons/Sprites/NPC/Ogre/Run/ogre_run_anim_f3.png" id="8_voata"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_25w6f"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_knras")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_3p1bn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_pmsbr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_1i5uy")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_j5o7h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_rkf66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_vusqs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_voata")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_o335l"]
+radius = 6.08276
+
+[node name="Ogre" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_25w6f")
+animation = &"Idle"
+frame_progress = 0.741567
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 9)
+shape = SubResource("CircleShape2D_o335l")

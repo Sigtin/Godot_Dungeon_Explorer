@@ -1,4 +1,4 @@
-[gd_scene load_steps=116 format=3 uid="uid://6to5wfte08uv"]
+[gd_scene load_steps=118 format=3 uid="uid://6to5wfte08uv"]
 
 [ext_resource type="Texture2D" uid="uid://dwqvc0wlvewoa" path="res://Icons/Tiles/MapIcons/Walls/wall_edge_mid_left.png" id="1_8hj1y"]
 [ext_resource type="Texture2D" uid="uid://d1j2upu00u7yt" path="res://Icons/Tiles/MapIcons/Walls/wall_edge_mid_right.png" id="2_cw3pg"]
@@ -9,6 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://bhwpsd5ap4vuw" path="res://Icons/Tiles/MapIcons/Walls/wall_edge_tshape_bottom_right.png" id="7_erom8"]
 [ext_resource type="Texture2D" uid="uid://s545x2rn2l0d" path="res://Icons/Tiles/MapIcons/Walls/wall_edge_tshape_left.png" id="8_qx518"]
 [ext_resource type="Texture2D" uid="uid://ccwuow7l1m4m6" path="res://Icons/Tiles/MapIcons/Walls/wall_edge_tshape_right.png" id="9_8oyn3"]
+[ext_resource type="Texture2D" uid="uid://6skglbavqepn" path="res://Icons/Tiles/AnimatedFrames/Lava/AnimatedWallLava.png" id="11_2ue5l"]
 [ext_resource type="Texture2D" uid="uid://canfh6m68qg7m" path="res://Icons/Tiles/MapIcons/Walls/column_wall.png" id="11_scc4g"]
 [ext_resource type="Texture2D" uid="uid://c1edqp3bdikfi" path="res://Icons/Tiles/MapIcons/Walls/wall_banner_blue.png" id="22_hennt"]
 [ext_resource type="Texture2D" uid="uid://bfyqqpqyh7x72" path="res://Icons/Tiles/MapIcons/Walls/wall_fountain_top_1.png" id="24_qp3ra"]
@@ -123,6 +124,22 @@ texture = ExtResource("11_scc4g")
 0:2/0 = 0
 0:2/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 0:2/0/physics_layer_0/angular_velocity = 0.0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qagnb"]
+texture = ExtResource("11_2ue5l")
+0:0/animation_speed = 3.0
+0:0/animation_frame_0/duration = 0.3
+0:0/animation_frame_1/duration = 0.3
+0:0/animation_frame_2/duration = 0.3
+0:0/0 = 0
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+0:1/animation_frame_0/duration = 1.0
+0:1/animation_frame_1/duration = 1.0
+0:1/animation_frame_2/duration = 1.0
+0:1/0 = 0
+0:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:1/0/physics_layer_0/angular_velocity = 0.0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_j483t"]
 texture = ExtResource("22_hennt")
@@ -516,7 +533,8 @@ sources/67 = SubResource("TileSetAtlasSource_1fwwf")
 sources/68 = SubResource("TileSetAtlasSource_2p7kb")
 sources/69 = SubResource("TileSetAtlasSource_r50nm")
 sources/75 = SubResource("TileSetAtlasSource_c850m")
-tile_proxies/coords_level = [[71, Vector2i(0, 0)], [75, Vector2i(0, 0)], [71, Vector2i(0, 1)], [75, Vector2i(0, 1)], [72, Vector2i(0, 0)], [75, Vector2i(1, 0)], [72, Vector2i(0, 1)], [75, Vector2i(1, 1)], [73, Vector2i(0, 0)], [75, Vector2i(2, 0)], [73, Vector2i(0, 1)], [75, Vector2i(2, 1)]]
+sources/20 = SubResource("TileSetAtlasSource_qagnb")
+tile_proxies/coords_level = [[0, Vector2i(0, 0)], [20, Vector2i(0, 0)], [0, Vector2i(0, 1)], [20, Vector2i(0, 1)], [1, Vector2i(0, 0)], [20, Vector2i(1, 0)], [1, Vector2i(0, 1)], [20, Vector2i(1, 1)], [19, Vector2i(0, 0)], [20, Vector2i(2, 0)], [19, Vector2i(0, 1)], [20, Vector2i(2, 1)], [71, Vector2i(0, 0)], [75, Vector2i(0, 0)], [71, Vector2i(0, 1)], [75, Vector2i(0, 1)], [72, Vector2i(0, 0)], [75, Vector2i(1, 0)], [72, Vector2i(0, 1)], [75, Vector2i(1, 1)], [73, Vector2i(0, 0)], [75, Vector2i(2, 0)], [73, Vector2i(0, 1)], [75, Vector2i(2, 1)]]
 
 [node name="TileMap" type="TileMap"]
 tile_set = SubResource("TileSet_kbtoe")

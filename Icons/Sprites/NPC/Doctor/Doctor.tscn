@@ -1,0 +1,61 @@
+[gd_scene load_steps=11 format=3 uid="uid://jem5tnykr02m"]
+
+[ext_resource type="Texture2D" uid="uid://cjch1ys7l08n2" path="res://Icons/Sprites/NPC/Doctor/Idle/doc_idle_anim_f0.png" id="1_7hpqf"]
+[ext_resource type="Texture2D" uid="uid://2kcgtdf8xr2m" path="res://Icons/Sprites/NPC/Doctor/Idle/doc_idle_anim_f1.png" id="2_q31n5"]
+[ext_resource type="Texture2D" uid="uid://d0ukt5cdmotx7" path="res://Icons/Sprites/NPC/Doctor/Idle/doc_idle_anim_f2.png" id="3_ef51d"]
+[ext_resource type="Texture2D" uid="uid://d3lllmrt1dlep" path="res://Icons/Sprites/NPC/Doctor/Idle/doc_idle_anim_f3.png" id="4_j4d70"]
+[ext_resource type="Texture2D" uid="uid://chnnmbrc8na4g" path="res://Icons/Sprites/NPC/Doctor/Run/doc_run_anim_f0.png" id="5_6c4bw"]
+[ext_resource type="Texture2D" uid="uid://b2812se66any5" path="res://Icons/Sprites/NPC/Doctor/Run/doc_run_anim_f1.png" id="6_j5eov"]
+[ext_resource type="Texture2D" uid="uid://hoff6l8jdidc" path="res://Icons/Sprites/NPC/Doctor/Run/doc_run_anim_f2.png" id="7_20fjr"]
+[ext_resource type="Texture2D" uid="uid://br5q447f5ny73" path="res://Icons/Sprites/NPC/Doctor/Run/doc_run_anim_f3.png" id="8_n4xav"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_vqh1m"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_7hpqf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_q31n5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ef51d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_j4d70")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_6c4bw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_j5eov")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_20fjr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_n4xav")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_jbu6l"]
+radius = 4.12311
+
+[node name="DoctorAnimated" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_vqh1m")
+animation = &"Idle"
+frame_progress = 0.927492
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 4)
+shape = SubResource("CircleShape2D_jbu6l")

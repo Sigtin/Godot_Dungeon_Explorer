@@ -1,0 +1,35 @@
+[gd_scene load_steps=6 format=3 uid="uid://ds8nukeqt246e"]
+
+[ext_resource type="Texture2D" uid="uid://csicttlvpj868" path="res://Icons/Sprites/Items/Chest/Empty/chest_empty_open_anim_f0.png" id="1_68lkn"]
+[ext_resource type="Texture2D" uid="uid://q1npit2hwfan" path="res://Icons/Sprites/Items/Chest/Empty/chest_empty_open_anim_f1.png" id="2_1wpy1"]
+[ext_resource type="Texture2D" uid="uid://edokcs50padf" path="res://Icons/Sprites/Items/Chest/Empty/chest_empty_open_anim_f2.png" id="3_kc8to"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8m1bg"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_68lkn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_1wpy1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_kc8to")
+}],
+"loop": true,
+"name": &"Open",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_plag7"]
+size = Vector2(14, 10)
+
+[node name="EmptyChest" type="AnimatableBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_8m1bg")
+animation = &"Open"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 2)
+shape = SubResource("RectangleShape2D_plag7")
