@@ -1,0 +1,69 @@
+[gd_scene load_steps=12 format=3 uid="uid://capp47wibwbq7"]
+
+[ext_resource type="Texture2D" uid="uid://b6dmo8c6s1ugb" path="res://Icons/Sprites/Player/Lizard/Male/Hit/lizard_m_hit_anim_f0.png" id="1_fr8eb"]
+[ext_resource type="Texture2D" uid="uid://bag1flcdvgi6b" path="res://Icons/Sprites/Player/Lizard/Male/Idle/lizard_m_idle_anim_f0.png" id="2_e6xha"]
+[ext_resource type="Texture2D" uid="uid://calkybiyodun" path="res://Icons/Sprites/Player/Lizard/Male/Idle/lizard_m_idle_anim_f1.png" id="3_gs2kl"]
+[ext_resource type="Texture2D" uid="uid://buetxxbygg863" path="res://Icons/Sprites/Player/Lizard/Male/Idle/lizard_m_idle_anim_f2.png" id="4_awv2o"]
+[ext_resource type="Texture2D" uid="uid://nsw65nabufar" path="res://Icons/Sprites/Player/Lizard/Male/Idle/lizard_m_idle_anim_f3.png" id="5_6mvxo"]
+[ext_resource type="Texture2D" uid="uid://cxljaneu7f3id" path="res://Icons/Sprites/Player/Lizard/Male/Run/lizard_m_run_anim_f0.png" id="6_g5oi1"]
+[ext_resource type="Texture2D" uid="uid://ya6wpg66j4eg" path="res://Icons/Sprites/Player/Lizard/Male/Run/lizard_m_run_anim_f1.png" id="7_orh73"]
+[ext_resource type="Texture2D" uid="uid://c8r5rwt3ugmng" path="res://Icons/Sprites/Player/Lizard/Male/Run/lizard_m_run_anim_f2.png" id="8_qrl6u"]
+[ext_resource type="Texture2D" uid="uid://dfoinvp1f7w7j" path="res://Icons/Sprites/Player/Lizard/Male/Run/lizard_m_run_anim_f3.png" id="9_xh2wi"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_uwft6"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_fr8eb")
+}],
+"loop": true,
+"name": &"Hit",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_e6xha")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_gs2kl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_awv2o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_6mvxo")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_g5oi1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_orh73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_qrl6u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_xh2wi")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_trnsg"]
+radius = 3.0
+
+[node name="MaleLizard" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_uwft6")
+animation = &"Run"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 8)
+shape = SubResource("CircleShape2D_trnsg")

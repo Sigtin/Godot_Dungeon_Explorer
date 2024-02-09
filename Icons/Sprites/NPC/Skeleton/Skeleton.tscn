@@ -1,0 +1,60 @@
+[gd_scene load_steps=11 format=3 uid="uid://ci0ext3qv68kv"]
+
+[ext_resource type="Texture2D" uid="uid://b12fv8nwl0hqd" path="res://Icons/Sprites/NPC/Skeleton/Idle/skelet_idle_anim_f0.png" id="1_120en"]
+[ext_resource type="Texture2D" uid="uid://ban21ptq817lw" path="res://Icons/Sprites/NPC/Skeleton/Idle/skelet_idle_anim_f1.png" id="2_wtcpm"]
+[ext_resource type="Texture2D" uid="uid://ckpw4tf1nnl6f" path="res://Icons/Sprites/NPC/Skeleton/Idle/skelet_idle_anim_f2.png" id="3_1r7b7"]
+[ext_resource type="Texture2D" uid="uid://cq0ux2aufjl4r" path="res://Icons/Sprites/NPC/Skeleton/Idle/skelet_idle_anim_f3.png" id="4_dx0ov"]
+[ext_resource type="Texture2D" uid="uid://dc0cxpdy767p5" path="res://Icons/Sprites/NPC/Skeleton/Run/skelet_run_anim_f0.png" id="5_mhidk"]
+[ext_resource type="Texture2D" uid="uid://loofgtdciibk" path="res://Icons/Sprites/NPC/Skeleton/Run/skelet_run_anim_f1.png" id="6_yurne"]
+[ext_resource type="Texture2D" uid="uid://dgyk52c24oob4" path="res://Icons/Sprites/NPC/Skeleton/Run/skelet_run_anim_f2.png" id="7_pb1vd"]
+[ext_resource type="Texture2D" uid="uid://bhj1kaj0bdnfy" path="res://Icons/Sprites/NPC/Skeleton/Run/skelet_run_anim_f3.png" id="8_xtcr1"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6tqat"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_120en")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_wtcpm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_1r7b7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_dx0ov")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_mhidk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_yurne")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_pb1vd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_xtcr1")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_k0nut"]
+radius = 2.23607
+
+[node name="Skeleton" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_6tqat")
+animation = &"Run"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 1)
+shape = SubResource("CircleShape2D_k0nut")

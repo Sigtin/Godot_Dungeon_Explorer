@@ -1,0 +1,69 @@
+[gd_scene load_steps=12 format=3 uid="uid://chd7wdb0cm6aj"]
+
+[ext_resource type="Texture2D" uid="uid://b6cu7v61uydtb" path="res://Icons/Sprites/Player/Wizard/Female/Hit/wizard_f_hit_anim_f0.png" id="1_pm5m1"]
+[ext_resource type="Texture2D" uid="uid://dkx1sbi5pt4so" path="res://Icons/Sprites/Player/Wizard/Female/Idle/wizard_f_idle_anim_f0.png" id="2_4tqs3"]
+[ext_resource type="Texture2D" uid="uid://cbmfyntcwycob" path="res://Icons/Sprites/Player/Wizard/Female/Idle/wizard_f_idle_anim_f1.png" id="3_i7aky"]
+[ext_resource type="Texture2D" uid="uid://buoqndvoyu4bg" path="res://Icons/Sprites/Player/Wizard/Female/Idle/wizard_f_idle_anim_f2.png" id="4_vci1t"]
+[ext_resource type="Texture2D" uid="uid://caa8our2t6brr" path="res://Icons/Sprites/Player/Wizard/Female/Idle/wizard_f_idle_anim_f3.png" id="5_nt5cj"]
+[ext_resource type="Texture2D" uid="uid://c7w0x6s831qja" path="res://Icons/Sprites/Player/Wizard/Female/Run/wizard_f_run_anim_f0.png" id="6_v7dik"]
+[ext_resource type="Texture2D" uid="uid://bmt55irmm46sv" path="res://Icons/Sprites/Player/Wizard/Female/Run/wizard_f_run_anim_f1.png" id="7_4ki5j"]
+[ext_resource type="Texture2D" uid="uid://cp5betdkt0qeu" path="res://Icons/Sprites/Player/Wizard/Female/Run/wizard_f_run_anim_f2.png" id="8_rrq7k"]
+[ext_resource type="Texture2D" uid="uid://bp1pemoenj84w" path="res://Icons/Sprites/Player/Wizard/Female/Run/wizard_f_run_anim_f3.png" id="9_gaun3"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hsee4"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_pm5m1")
+}],
+"loop": true,
+"name": &"Hit",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_4tqs3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_i7aky")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_vci1t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_nt5cj")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_v7dik")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_4ki5j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_rrq7k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_gaun3")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_h0hg2"]
+radius = 3.0
+
+[node name="FemaleWizard" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_hsee4")
+animation = &"Idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 9)
+shape = SubResource("CircleShape2D_h0hg2")

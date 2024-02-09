@@ -1,0 +1,69 @@
+[gd_scene load_steps=12 format=3 uid="uid://wurpdmt0t8ip"]
+
+[ext_resource type="Texture2D" uid="uid://ci7qsi3ghb2mj" path="res://Icons/Sprites/Player/Wizard/Male/Hit/wizzard_m_hit_anim_f0.png" id="1_mxn35"]
+[ext_resource type="Texture2D" uid="uid://cv2i8if8kbynw" path="res://Icons/Sprites/Player/Wizard/Male/Idle/wizzard_m_idle_anim_f0.png" id="2_65184"]
+[ext_resource type="Texture2D" uid="uid://d4irtp0upejht" path="res://Icons/Sprites/Player/Wizard/Male/Idle/wizzard_m_idle_anim_f1.png" id="3_vvr6w"]
+[ext_resource type="Texture2D" uid="uid://c08u74bcqrmon" path="res://Icons/Sprites/Player/Wizard/Male/Idle/wizzard_m_idle_anim_f2.png" id="4_u6clc"]
+[ext_resource type="Texture2D" uid="uid://6xe6aidqjljk" path="res://Icons/Sprites/Player/Wizard/Male/Idle/wizzard_m_idle_anim_f3.png" id="5_4yigk"]
+[ext_resource type="Texture2D" uid="uid://b7yivc4wjtkr0" path="res://Icons/Sprites/Player/Wizard/Male/Run/wizzard_m_run_anim_f0.png" id="6_jjfkq"]
+[ext_resource type="Texture2D" uid="uid://cqrp4hqwjo6to" path="res://Icons/Sprites/Player/Wizard/Male/Run/wizzard_m_run_anim_f1.png" id="7_dmxv7"]
+[ext_resource type="Texture2D" uid="uid://cvxa1puw3v47x" path="res://Icons/Sprites/Player/Wizard/Male/Run/wizzard_m_run_anim_f2.png" id="8_8f1t6"]
+[ext_resource type="Texture2D" uid="uid://hxq823xh0iyq" path="res://Icons/Sprites/Player/Wizard/Male/Run/wizzard_m_run_anim_f3.png" id="9_l4war"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xh1nc"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_mxn35")
+}],
+"loop": true,
+"name": &"Hit",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_65184")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_vvr6w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_u6clc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_4yigk")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_jjfkq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_dmxv7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_8f1t6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_l4war")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_joe5m"]
+radius = 3.0
+
+[node name="MaleWizard" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_xh1nc")
+animation = &"Idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 10)
+shape = SubResource("CircleShape2D_joe5m")

@@ -1,0 +1,69 @@
+[gd_scene load_steps=12 format=3 uid="uid://cyi4r4qgaqjku"]
+
+[ext_resource type="Texture2D" uid="uid://b6wdajdrncteg" path="res://Icons/Sprites/Player/Elf/Female/Hit/elf_f_hit_anim_f0.png" id="1_muyv1"]
+[ext_resource type="Texture2D" uid="uid://ndt0ii33uovl" path="res://Icons/Sprites/Player/Elf/Female/Idle/elf_f_idle_anim_f0.png" id="2_ije6u"]
+[ext_resource type="Texture2D" uid="uid://coqtq6xqvyn5m" path="res://Icons/Sprites/Player/Elf/Female/Idle/elf_f_idle_anim_f1.png" id="3_uuvou"]
+[ext_resource type="Texture2D" uid="uid://bag34kqh6dpc6" path="res://Icons/Sprites/Player/Elf/Female/Idle/elf_f_idle_anim_f2.png" id="4_5rfhq"]
+[ext_resource type="Texture2D" uid="uid://c1sstgcnl3bft" path="res://Icons/Sprites/Player/Elf/Female/Idle/elf_f_idle_anim_f3.png" id="5_1pp6f"]
+[ext_resource type="Texture2D" uid="uid://blurrrsdi6lsv" path="res://Icons/Sprites/Player/Elf/Female/Run/elf_f_run_anim_f0.png" id="6_5pjtg"]
+[ext_resource type="Texture2D" uid="uid://cf0sln27f3k8w" path="res://Icons/Sprites/Player/Elf/Female/Run/elf_f_run_anim_f1.png" id="7_tsqgu"]
+[ext_resource type="Texture2D" uid="uid://ymlvwr1r6bod" path="res://Icons/Sprites/Player/Elf/Female/Run/elf_f_run_anim_f2.png" id="8_7kwy0"]
+[ext_resource type="Texture2D" uid="uid://by4ymksq6ji8p" path="res://Icons/Sprites/Player/Elf/Female/Run/elf_f_run_anim_f3.png" id="9_30eh0"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8s8tu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_muyv1")
+}],
+"loop": true,
+"name": &"Hit",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_ije6u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_uuvou")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_5rfhq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1pp6f")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_5pjtg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_tsqgu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_7kwy0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_30eh0")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_b65cn"]
+radius = 3.0
+
+[node name="FemaleElf" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_8s8tu")
+animation = &"Run"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 10)
+shape = SubResource("CircleShape2D_b65cn")

@@ -1,0 +1,61 @@
+[gd_scene load_steps=11 format=3 uid="uid://byq0aekj52nn7"]
+
+[ext_resource type="Texture2D" uid="uid://c3emmrxknkpbh" path="res://Icons/Sprites/NPC/Orc/Masked/Idle/masked_orc_idle_anim_f0.png" id="1_r4a6b"]
+[ext_resource type="Texture2D" uid="uid://cc3tj3p61ac3n" path="res://Icons/Sprites/NPC/Orc/Masked/Idle/masked_orc_idle_anim_f1.png" id="2_0exrd"]
+[ext_resource type="Texture2D" uid="uid://cm787inbxn2l6" path="res://Icons/Sprites/NPC/Orc/Masked/Idle/masked_orc_idle_anim_f2.png" id="3_oowrr"]
+[ext_resource type="Texture2D" uid="uid://c1fdtnbmtdasu" path="res://Icons/Sprites/NPC/Orc/Masked/Idle/masked_orc_idle_anim_f3.png" id="4_dishb"]
+[ext_resource type="Texture2D" uid="uid://b5qf1oiwgpydc" path="res://Icons/Sprites/NPC/Orc/Masked/Run/masked_orc_run_anim_f0.png" id="5_ly7gg"]
+[ext_resource type="Texture2D" uid="uid://6dls01u2ex5t" path="res://Icons/Sprites/NPC/Orc/Masked/Run/masked_orc_run_anim_f1.png" id="6_p13yk"]
+[ext_resource type="Texture2D" uid="uid://020c2766ck7q" path="res://Icons/Sprites/NPC/Orc/Masked/Run/masked_orc_run_anim_f2.png" id="7_iaui8"]
+[ext_resource type="Texture2D" uid="uid://c0l0jhavlvbpk" path="res://Icons/Sprites/NPC/Orc/Masked/Run/masked_orc_run_anim_f3.png" id="8_6o2qf"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_x62lp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_r4a6b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_0exrd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_oowrr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_dishb")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_ly7gg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_p13yk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_iaui8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_6o2qf")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_detjv"]
+radius = 3.0
+
+[node name="MaskedOrc" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_x62lp")
+animation = &"Run"
+frame_progress = 0.283856
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 3)
+shape = SubResource("CircleShape2D_detjv")

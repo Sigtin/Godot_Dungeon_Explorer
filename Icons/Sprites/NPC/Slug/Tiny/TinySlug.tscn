@@ -1,0 +1,40 @@
+[gd_scene load_steps=7 format=3 uid="uid://bap7d4t80f587"]
+
+[ext_resource type="Texture2D" uid="uid://cmbx2stgojlpp" path="res://Icons/Sprites/NPC/Slug/Tiny/tiny_slug_anim_f0.png" id="1_6bmmk"]
+[ext_resource type="Texture2D" uid="uid://bdoaue33u8eut" path="res://Icons/Sprites/NPC/Slug/Tiny/tiny_slug_anim_f1.png" id="2_vkoyp"]
+[ext_resource type="Texture2D" uid="uid://canyjqeybkwwu" path="res://Icons/Sprites/NPC/Slug/Tiny/tiny_slug_anim_f2.png" id="3_5ux6p"]
+[ext_resource type="Texture2D" uid="uid://cnyofa0nf8x8" path="res://Icons/Sprites/NPC/Slug/Tiny/tiny_slug_anim_f3.png" id="4_pxsi2"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_lpcnk"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_6bmmk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_vkoyp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_5ux6p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_pxsi2")
+}],
+"loop": true,
+"name": &"Default",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_yftlf"]
+radius = 3.16228
+
+[node name="TinySlug" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_lpcnk")
+animation = &"Default"
+frame_progress = 0.505271
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 4)
+shape = SubResource("CircleShape2D_yftlf")

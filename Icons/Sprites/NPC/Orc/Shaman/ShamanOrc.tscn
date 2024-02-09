@@ -1,0 +1,61 @@
+[gd_scene load_steps=11 format=3 uid="uid://n74pc37b12sc"]
+
+[ext_resource type="Texture2D" uid="uid://dymy37n7kqde5" path="res://Icons/Sprites/NPC/Orc/Shaman/Idle/orc_shaman_idle_anim_f0.png" id="1_weyf7"]
+[ext_resource type="Texture2D" uid="uid://d4lnsn3hmt0u0" path="res://Icons/Sprites/NPC/Orc/Shaman/Idle/orc_shaman_idle_anim_f1.png" id="2_vmilo"]
+[ext_resource type="Texture2D" uid="uid://dgyrt44gw68ay" path="res://Icons/Sprites/NPC/Orc/Shaman/Idle/orc_shaman_idle_anim_f2.png" id="3_6kno5"]
+[ext_resource type="Texture2D" uid="uid://cp4fcjlgv0ofw" path="res://Icons/Sprites/NPC/Orc/Shaman/Idle/orc_shaman_idle_anim_f3.png" id="4_6cqnc"]
+[ext_resource type="Texture2D" uid="uid://dq2bcmx57ix5n" path="res://Icons/Sprites/NPC/Orc/Shaman/Run/orc_shaman_run_anim_f0.png" id="5_y6uet"]
+[ext_resource type="Texture2D" uid="uid://cnmnqk86mqtxu" path="res://Icons/Sprites/NPC/Orc/Shaman/Run/orc_shaman_run_anim_f1.png" id="6_nxmbd"]
+[ext_resource type="Texture2D" uid="uid://bhr7d0ph7ppg7" path="res://Icons/Sprites/NPC/Orc/Shaman/Run/orc_shaman_run_anim_f2.png" id="7_fehs0"]
+[ext_resource type="Texture2D" uid="uid://bo5qf3njw0lbj" path="res://Icons/Sprites/NPC/Orc/Shaman/Run/orc_shaman_run_anim_f3.png" id="8_b27ds"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_d46ok"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_weyf7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_vmilo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_6kno5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_6cqnc")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_y6uet")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_nxmbd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_fehs0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_b27ds")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_q2apt"]
+radius = 3.16228
+
+[node name="ShamanOrc" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_d46ok")
+animation = &"Idle"
+frame_progress = 0.372991
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 5)
+shape = SubResource("CircleShape2D_q2apt")
