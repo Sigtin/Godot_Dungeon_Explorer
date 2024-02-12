@@ -1,18 +1,18 @@
-[gd_scene load_steps=22 format=3 uid="uid://6to5wfte08uv"]
+[gd_resource type="TileSet" load_steps=21 format=3 uid="uid://doyt7pxvidw3p"]
 
-[ext_resource type="Texture2D" uid="uid://cof27rk8vcqnn" path="res://Icons/Tiles/MapIcons/Walls/Walls.png" id="1_b7fea"]
-[ext_resource type="Texture2D" uid="uid://csl0xe2idmu1c" path="res://Icons/Tiles/MapIcons/Floors/Floors.png" id="2_f1hq6"]
-[ext_resource type="Texture2D" uid="uid://m2rft2watcjt" path="res://Icons/Tiles/MapIcons/Doors/Doors.png" id="5_oy4hh"]
-[ext_resource type="Texture2D" uid="uid://6skglbavqepn" path="res://Icons/Tiles/AnimatedFrames/Lava/AnimatedWallLava.png" id="11_2ue5l"]
-[ext_resource type="Texture2D" uid="uid://canfh6m68qg7m" path="res://Icons/Tiles/MapIcons/Walls/column_wall.png" id="11_scc4g"]
-[ext_resource type="Texture2D" uid="uid://dud4swr1row0o" path="res://Icons/Tiles/MapIcons/Floors/column.png" id="45_6xycu"]
-[ext_resource type="Texture2D" uid="uid://h1vcyaamigph" path="res://Icons/Tiles/MapIcons/Floors/crate.png" id="46_lrb0v"]
-[ext_resource type="Texture2D" uid="uid://mipefo2ubh4k" path="res://Icons/Tiles/MapIcons/Floors/edge_down.png" id="47_4kj4e"]
-[ext_resource type="Texture2D" uid="uid://beeucjsorx6qj" path="res://Icons/Tiles/AnimatedFrames/Fountain/AnimatedWallFountain.png" id="55_tv8ng"]
-[ext_resource type="Texture2D" uid="uid://bda4b4u60se71" path="res://Icons/Tiles/MapIcons/Floors/skull.png" id="60_agrbg"]
+[ext_resource type="Texture2D" uid="uid://cof27rk8vcqnn" path="res://Icons/Tiles/MapIcons/Walls/Walls.png" id="1_pbjc3"]
+[ext_resource type="Texture2D" uid="uid://csl0xe2idmu1c" path="res://Icons/Tiles/MapIcons/Floors/Floors.png" id="2_m2na4"]
+[ext_resource type="Texture2D" uid="uid://canfh6m68qg7m" path="res://Icons/Tiles/MapIcons/Walls/column_wall.png" id="3_7teej"]
+[ext_resource type="Texture2D" uid="uid://6skglbavqepn" path="res://Icons/Tiles/AnimatedFrames/Lava/AnimatedWallLava.png" id="4_ed0ts"]
+[ext_resource type="Texture2D" uid="uid://m2rft2watcjt" path="res://Icons/Tiles/MapIcons/Doors/Doors.png" id="5_vsn30"]
+[ext_resource type="Texture2D" uid="uid://dud4swr1row0o" path="res://Icons/Tiles/MapIcons/Floors/column.png" id="6_cgy60"]
+[ext_resource type="Texture2D" uid="uid://h1vcyaamigph" path="res://Icons/Tiles/MapIcons/Floors/crate.png" id="7_68mkc"]
+[ext_resource type="Texture2D" uid="uid://mipefo2ubh4k" path="res://Icons/Tiles/MapIcons/Floors/edge_down.png" id="8_ry5hj"]
+[ext_resource type="Texture2D" uid="uid://bda4b4u60se71" path="res://Icons/Tiles/MapIcons/Floors/skull.png" id="9_ecj8s"]
+[ext_resource type="Texture2D" uid="uid://beeucjsorx6qj" path="res://Icons/Tiles/AnimatedFrames/Fountain/AnimatedWallFountain.png" id="10_ven6u"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gcc2n"]
-texture = ExtResource("1_b7fea")
+texture = ExtResource("1_pbjc3")
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 0:0/0/physics_layer_0/angular_velocity = 0.0
@@ -151,7 +151,7 @@ texture = ExtResource("1_b7fea")
 3:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 4, 8, 3.9375, 8, 8, -8, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bhilg"]
-texture = ExtResource("2_f1hq6")
+texture = ExtResource("2_m2na4")
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 0:0/0/physics_layer_0/angular_velocity = 0.0
@@ -190,7 +190,7 @@ texture = ExtResource("2_f1hq6")
 11:0/0/physics_layer_0/angular_velocity = 0.0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_his3c"]
-texture = ExtResource("11_scc4g")
+texture = ExtResource("3_7teej")
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 0:0/0/physics_layer_0/angular_velocity = 0.0
@@ -202,7 +202,7 @@ texture = ExtResource("11_scc4g")
 0:2/0/physics_layer_0/angular_velocity = 0.0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qagnb"]
-texture = ExtResource("11_2ue5l")
+texture = ExtResource("4_ed0ts")
 0:0/animation_speed = 3.0
 0:0/animation_frame_0/duration = 0.3
 0:0/animation_frame_1/duration = 0.3
@@ -218,7 +218,7 @@ texture = ExtResource("11_2ue5l")
 0:1/0/physics_layer_0/angular_velocity = 0.0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4j52v"]
-texture = ExtResource("5_oy4hh")
+texture = ExtResource("5_vsn30")
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 0:0/0/physics_layer_0/angular_velocity = 0.0
@@ -273,7 +273,7 @@ texture = ExtResource("5_oy4hh")
 7:1/0/physics_layer_0/angular_velocity = 0.0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t1c48"]
-texture = ExtResource("45_6xycu")
+texture = ExtResource("6_cgy60")
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 0:0/0/physics_layer_0/angular_velocity = 0.0
@@ -285,26 +285,26 @@ texture = ExtResource("45_6xycu")
 0:2/0/physics_layer_0/angular_velocity = 0.0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_trrkl"]
-texture = ExtResource("46_lrb0v")
+texture = ExtResource("7_68mkc")
 texture_region_size = Vector2i(16, 24)
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 0:0/0/physics_layer_0/angular_velocity = 0.0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_o3cbi"]
-texture = ExtResource("47_4kj4e")
+texture = ExtResource("8_ry5hj")
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 0:0/0/physics_layer_0/angular_velocity = 0.0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_r4s2f"]
-texture = ExtResource("60_agrbg")
+texture = ExtResource("9_ecj8s")
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 0:0/0/physics_layer_0/angular_velocity = 0.0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_c850m"]
-texture = ExtResource("55_tv8ng")
+texture = ExtResource("10_ven6u")
 use_texture_padding = false
 0:0/animation_speed = 3.0
 0:0/animation_frame_0/duration = 0.3
@@ -321,7 +321,7 @@ use_texture_padding = false
 0:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 0:1/0/physics_layer_0/angular_velocity = 0.0
 
-[sub_resource type="TileSet" id="TileSet_kbtoe"]
+[resource]
 tile_layout = 1
 tile_offset_axis = 1
 occlusion_layer_0/light_mask = 1
@@ -339,12 +339,3 @@ sources/0 = SubResource("TileSetAtlasSource_gcc2n")
 sources/1 = SubResource("TileSetAtlasSource_bhilg")
 sources/3 = SubResource("TileSetAtlasSource_4j52v")
 tile_proxies/coords_level = [[0, Vector2i(0, 0)], [20, Vector2i(0, 0)], [0, Vector2i(0, 1)], [20, Vector2i(0, 1)], [1, Vector2i(0, 0)], [20, Vector2i(1, 0)], [1, Vector2i(0, 1)], [20, Vector2i(1, 1)], [3, Vector2i(0, 0)], [0, Vector2i(0, 0)], [4, Vector2i(0, 0)], [0, Vector2i(1, 0)], [5, Vector2i(0, 0)], [0, Vector2i(2, 0)], [6, Vector2i(0, 0)], [0, Vector2i(3, 0)], [7, Vector2i(0, 0)], [0, Vector2i(4, 0)], [8, Vector2i(0, 0)], [0, Vector2i(5, 0)], [9, Vector2i(0, 0)], [0, Vector2i(6, 0)], [10, Vector2i(0, 0)], [0, Vector2i(7, 0)], [11, Vector2i(0, 0)], [0, Vector2i(8, 0)], [12, Vector2i(0, 0)], [0, Vector2i(9, 0)], [13, Vector2i(0, 0)], [0, Vector2i(10, 0)], [14, Vector2i(0, 0)], [0, Vector2i(11, 0)], [15, Vector2i(0, 0)], [0, Vector2i(12, 0)], [16, Vector2i(0, 0)], [0, Vector2i(13, 0)], [17, Vector2i(0, 0)], [0, Vector2i(14, 0)], [18, Vector2i(0, 0)], [0, Vector2i(15, 0)], [19, Vector2i(0, 0)], [20, Vector2i(2, 0)], [19, Vector2i(0, 1)], [20, Vector2i(2, 1)], [31, Vector2i(0, 0)], [0, Vector2i(16, 0)], [32, Vector2i(0, 0)], [0, Vector2i(17, 0)], [33, Vector2i(0, 0)], [0, Vector2i(18, 0)], [34, Vector2i(0, 0)], [0, Vector2i(19, 0)], [35, Vector2i(0, 0)], [1, Vector2i(0, 0)], [36, Vector2i(0, 0)], [0, Vector2i(20, 0)], [37, Vector2i(0, 0)], [0, Vector2i(21, 0)], [38, Vector2i(0, 0)], [0, Vector2i(22, 0)], [39, Vector2i(0, 0)], [0, Vector2i(23, 0)], [40, Vector2i(0, 0)], [0, Vector2i(24, 0)], [41, Vector2i(0, 0)], [0, Vector2i(25, 0)], [42, Vector2i(0, 0)], [0, Vector2i(26, 0)], [43, Vector2i(0, 0)], [0, Vector2i(27, 0)], [44, Vector2i(0, 0)], [0, Vector2i(28, 0)], [45, Vector2i(0, 0)], [0, Vector2i(29, 0)], [46, Vector2i(0, 0)], [0, Vector2i(0, 1)], [47, Vector2i(0, 0)], [0, Vector2i(1, 1)], [48, Vector2i(0, 0)], [0, Vector2i(2, 1)], [49, Vector2i(0, 0)], [0, Vector2i(3, 1)], [53, Vector2i(0, 0)], [1, Vector2i(1, 0)], [54, Vector2i(0, 0)], [1, Vector2i(2, 0)], [55, Vector2i(0, 0)], [1, Vector2i(3, 0)], [56, Vector2i(0, 0)], [1, Vector2i(4, 0)], [57, Vector2i(0, 0)], [1, Vector2i(5, 0)], [58, Vector2i(0, 0)], [1, Vector2i(6, 0)], [59, Vector2i(0, 0)], [1, Vector2i(7, 0)], [60, Vector2i(0, 0)], [1, Vector2i(8, 0)], [61, Vector2i(0, 0)], [1, Vector2i(9, 0)], [62, Vector2i(0, 0)], [1, Vector2i(10, 0)], [63, Vector2i(0, 0)], [1, Vector2i(11, 0)], [65, Vector2i(0, 0)], [3, Vector2i(0, 0)], [65, Vector2i(0, 1)], [3, Vector2i(0, 1)], [66, Vector2i(0, 0)], [3, Vector2i(1, 0)], [66, Vector2i(0, 1)], [3, Vector2i(1, 1)], [67, Vector2i(0, 0)], [3, Vector2i(2, 0)], [67, Vector2i(1, 0)], [3, Vector2i(3, 0)], [68, Vector2i(0, 0)], [3, Vector2i(4, 0)], [68, Vector2i(0, 1)], [3, Vector2i(4, 1)], [68, Vector2i(1, 0)], [3, Vector2i(5, 0)], [68, Vector2i(1, 1)], [3, Vector2i(5, 1)], [69, Vector2i(0, 0)], [3, Vector2i(6, 0)], [69, Vector2i(0, 1)], [3, Vector2i(6, 1)], [69, Vector2i(1, 0)], [3, Vector2i(7, 0)], [69, Vector2i(1, 1)], [3, Vector2i(7, 1)], [71, Vector2i(0, 0)], [75, Vector2i(0, 0)], [71, Vector2i(0, 1)], [75, Vector2i(0, 1)], [72, Vector2i(0, 0)], [75, Vector2i(1, 0)], [72, Vector2i(0, 1)], [75, Vector2i(1, 1)], [73, Vector2i(0, 0)], [75, Vector2i(2, 0)], [73, Vector2i(0, 1)], [75, Vector2i(2, 1)]]
-
-[node name="Node2D" type="Node2D"]
-
-[node name="TileMap" type="TileMap" parent="."]
-tile_set = SubResource("TileSet_kbtoe")
-format = 2
-layer_0/name = "Background"
-layer_1/name = "Foreground"
-layer_1/tile_data = PackedInt32Array()
