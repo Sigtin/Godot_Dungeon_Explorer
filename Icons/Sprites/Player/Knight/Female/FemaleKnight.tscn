@@ -1,5 +1,6 @@
-[gd_scene load_steps=12 format=3 uid="uid://dhtcy7g0b4nb4"]
+[gd_scene load_steps=13 format=3 uid="uid://dhtcy7g0b4nb4"]
 
+[ext_resource type="Script" path="res://Scripts/Units/Knight.cs" id="1_8n05x"]
 [ext_resource type="Texture2D" uid="uid://cfsnqj3gwao28" path="res://Icons/Sprites/Player/Knight/Female/Hit/knight_f_hit_anim_f0.png" id="1_lnalu"]
 [ext_resource type="Texture2D" uid="uid://8f4uydawuvmu" path="res://Icons/Sprites/Player/Knight/Female/Idle/knight_f_idle_anim_f0.png" id="2_6r120"]
 [ext_resource type="Texture2D" uid="uid://jdpimbfcc85r" path="res://Icons/Sprites/Player/Knight/Female/Idle/knight_f_idle_anim_f1.png" id="3_6gdkt"]
@@ -58,9 +59,12 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_l5545"]
 radius = 3.16228
 
-[node name="FemaleKnight" type="CharacterBody2D"]
+[node name="Knight" type="CharacterBody2D"]
+collision_layer = 2
+collision_mask = 7
+script = ExtResource("1_8n05x")
 
-[node name="AnimatableBody2D" type="AnimatedSprite2D" parent="."]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_ubwaj")
 animation = &"Run"
 
