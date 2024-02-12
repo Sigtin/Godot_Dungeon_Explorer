@@ -8,7 +8,7 @@ namespace Scripts.Units
     {
         public override void _PhysicsProcess(double delta)
         {
-            Vector2 direction = Input.GetVector("PlayerLeft", "PlayerRight", "PlayerUp", "PlayerDown");
+            Vector2 direction = Input.GetVector("MoveLeft", "MoveRight", "MoveUp", "MoveDown");
             Velocity = direction * 100;
             MoveAndSlide();
         }
